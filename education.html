@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การศึกษา | Sarittawat Yotdechakit Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="fireCanvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-container">
+        <nav class="navbar">
+            <a href="index.html" class="logo">PANGPOND<span>.M3</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html" class="active">การศึกษา</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container section-padding">
+        <div class="page-header">
+            <span class="badge">🔥 Educational Journey</span>
+            <h1>ประวัติการศึกษา</h1>
+            <p>ผลการเรียน ความภาคภูมิใจ และเส้นทางการศึกษาของผม</p>
+        </div>
+
+        <!-- Timeline Section -->
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content card">
+                    <span class="timeline-date">ปัจจุบัน (มัธยมศึกษาตอนต้น)</span>
+                    <h3>โรงเรียนจอมทอง</h3>
+                    <p><strong>ระดับชั้น:</strong> มัธยมศึกษาปีที่ 3/2</p>
+                    <p><strong>เกรดเฉลี่ยสะสม (GPAX):</strong> <span class="highlight-gpax">4.00</span></p>
+                    <p class="timeline-desc">มุ่งมั่นศึกษาเล่าเรียน พัฒนาทักษะวิชาการ ชื่นชอบวิชาคณิตศาสตร์และภาษาอังกฤษ เตรียมความพร้อมสำหรับเรียนต่อสายวิทย์-คณิต ในระดับ ม.ปลาย</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content card">
+                    <span class="timeline-date">ประถมศึกษา</span>
+                    <h3>โรงเรียนศรีจอมทอง</h3>
+                    <p>ระดับชั้นประถมศึกษาปีที่ 1 - 6</p>
+                    <p class="timeline-desc">สำเร็จการศึกษาระดับประถมศึกษาด้วยพื้นฐานการเรียนที่ดีเยี่ยม เข้าร่วมกิจกรรมของโรงเรียนอย่างสม่ำเสมอ</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Summary Table -->
+        <div class="section-title margin-top-50">
+            <h2>ตารางสรุปประวัติการศึกษา</h2>
+            <p>รายละเอียดระดับการศึกษา ผลการเรียน และสายการเรียนที่สนใจ</p>
+        </div>
+
+        <div class="table-responsive">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>ระดับชั้น</th>
+                        <th>สถานศึกษา</th>
+                        <th>เกรดเฉลี่ย (GPAX)</th>
+                        <th>วิชาที่ชอบ / สายที่สนใจ</th>
+                        <th>สถานะ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ประถมศึกษา (ป.1 - ป.6)</td>
+                        <td>โรงเรียนศรีจอมทอง</td>
+                        <td>-</td>
+                        <td>วิทยาศาตร์, คณิตศาสตร์</td>
+                        <td><span class="badge-status status-success">สำเร็จการศึกษา</span></td>
+                    </tr>
+                    <tr>
+                        <td>มัธยมศึกษาตอนต้น (ม.3/2)</td>
+                        <td>โรงเรียนจอมทอง</td>
+                        <td><strong>4.00</strong></td>
+                        <td>คณิตศาสตร์, ภาษาอังกฤษ</td>
+                        <td><span class="badge-status status-primary">กำลังศึกษา</span></td>
+                    </tr>
+                    <tr>
+                        <td>มัธยมศึกษาตอนปลาย (เป้าหมาย)</td>
+                        <td>โรงเรียนจอมทอง / ม.ปลาย</td>
+                        <td>-</td>
+                        <td>สายวิทย์-คณิต</td>
+                        <td><span class="badge-status status-target">แผนในอนาคต</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>PANGPOND<span>.M3</span></h3>
+                <p>เว็บไซต์แนะนำตัวเองของ ศริตวรรธน์ ยศเดชากิตติ์ (ปังปอนด์) ชั้น ม.3/2</p>
+                <p>โรงเรียนจอมทอง จังหวัดเชียงใหม่</p>
+            </div>
+            <div class="footer-links">
+                <h4>เมนูด่วน</h4>
+                <ul>
+                    <li><a href="index.html">หน้าแรก</a></li>
+                    <li><a href="profile.html">ประวัติส่วนตัว</a></li>
+                    <li><a href="education.html">การศึกษา</a></li>
+                    <li><a href="hobby.html">งานอดิเรก</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sarittawat Yotdechakit. All Rights Reserved. Created for Computer Class Project.</p>
+        </div>
+    </footer>
+
+    <script>
+        const canvas = document.getElementById('fireCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        function resizeCanvas() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        class Particle {
+            constructor(x, y, vx, vy, color, size, life) {
+                this.x = x; this.y = y; this.vx = vx; this.vy = vy;
+                this.color = color; this.size = size; this.life = life; this.maxLife = life;
+            }
+            update() { this.x += this.vx; this.y += this.vy; this.size *= 0.96; this.life--; }
+            draw() {
+                ctx.save();
+                ctx.globalAlpha = Math.max(0, this.life / this.maxLife);
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = this.color;
+                ctx.shadowBlur = 15;
+                ctx.shadowColor = '#ff3300';
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+        function createPhoenixExplosion(x, y) {
+            const colors = ['#ff2200', '#ff6600', '#ffaa00', '#ffff55', '#ffffff'];
+            for (let i = 0; i < 70; i++) {
+                const angle = Math.random() * Math.PI * 2;
+                const speed = Math.random() * 8 + 2;
+                particles.push(new Particle(x, y, Math.cos(angle)*speed, Math.sin(angle)*speed - 2, colors[Math.floor(Math.random()*colors.length)], Math.random()*10+4, Math.random()*30+20));
+            }
+        }
+        window.addEventListener('click', (e) => { createPhoenixExplosion(e.clientX, e.clientY); });
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles = particles.filter(p => p.life > 0 && p.size > 0.5);
+            particles.forEach(p => { p.update(); p.draw(); });
+            requestAnimationFrame(animate);
+        }
+        animate();
+    </script>
+</body>
+</html>
